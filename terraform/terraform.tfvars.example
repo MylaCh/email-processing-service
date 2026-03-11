@@ -1,0 +1,4 @@
+aws_region   = "eu-central-1"
+project_name = "email-processing"
+admin_email  = "your-admin@example.com"
+sender_email = "your-sender@example.com"

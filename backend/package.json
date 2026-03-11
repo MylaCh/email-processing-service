@@ -1,0 +1,31 @@
+{
+  "name": "email-processing-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/index.js",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/client-s3": "^3.0.0",
+    "@aws-sdk/client-ses": "^3.0.0",
+    "@aws-sdk/client-sqs": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.0.0",
+    "dotenv": "^16.0.0",
+    "exceljs": "^4.0.0",
+    "html-to-text": "^9.0.0",
+    "imapflow": "^1.0.0",
+    "mailparser": "^3.0.0",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/html-to-text": "^9.0.0",
+    "@types/mailparser": "^3.0.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

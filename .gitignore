@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.next/
+.turbo/
+.env
+.env.local
+*.log
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform.lock.hcl
+terraform/terraform.tfvars
